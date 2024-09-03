@@ -12,7 +12,7 @@ export type MessageType = {
 	body: string;
 	senderId: string;
 	createdAt: string;
-	// shouldShake?: boolean;
+	shouldShake?: boolean;
 };
 
 interface ConversationState{
